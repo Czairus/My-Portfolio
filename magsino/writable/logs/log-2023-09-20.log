@@ -1,0 +1,36 @@
+CRITICAL - 2023-09-20 11:50:12 --> Undefined variable $student
+in APPPATH\Views\main.php on line 58.
+ 1 APPPATH\Views\main.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $student', 'C:\\laragon\\www\\3f2\\app\\Views\\main.php', 58)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\3f2\\app\\Views\\main.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('main', [], true)
+ 5 APPPATH\Controllers\StudentController.php(20): view('main', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\StudentController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\3f2\\public\\index.php')
+CRITICAL - 2023-09-20 11:50:45 --> Undefined variable $stud
+in APPPATH\Views\main.php on line 58.
+ 1 APPPATH\Views\main.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $stud', 'C:\\laragon\\www\\3f2\\app\\Views\\main.php', 58)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\3f2\\app\\Views\\main.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('main', [], true)
+ 5 APPPATH\Controllers\StudentController.php(20): view('main', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\StudentController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\3f2\\public\\index.php')
+CRITICAL - 2023-09-20 11:52:24 --> Undefined array key "Id"
+in APPPATH\Views\edit.php on line 60.
+ 1 APPPATH\Views\edit.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Id"', 'C:\\laragon\\www\\3f2\\app\\Views\\edit.php', 60)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\3f2\\app\\Views\\edit.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('edit', [], true)
+ 5 APPPATH\Controllers\StudentController.php(58): view('edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\StudentController->edit('1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\StudentController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\3f2\\public\\index.php')
